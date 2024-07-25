@@ -20,6 +20,7 @@
 		BB3C406E2C521D8B006AF268 /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3C406D2C521D8B006AF268 /* PreviewProvider.swift */; };
 		BB3C40702C5224C2006AF268 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3C406F2C5224C2006AF268 /* Double.swift */; };
 		BB3C40722C52305B006AF268 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3C40712C52305B006AF268 /* HomeViewModel.swift */; };
+		BB3C40772C5242C5006AF268 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3C40762C5242C5006AF268 /* APIService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		BB3C406D2C521D8B006AF268 /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
 		BB3C406F2C5224C2006AF268 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 		BB3C40712C52305B006AF268 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		BB3C40762C5242C5006AF268 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 		BB3C40432C51E721006AF268 /* eKoins */ = {
 			isa = PBXGroup;
 			children = (
+				BB3C40732C524284006AF268 /* Services */,
 				BB3C40682C52010E006AF268 /* Models */,
 				BB3C40572C51EE74006AF268 /* Core */,
 				BB3C40542C51EB9B006AF268 /* Extensions */,
@@ -158,6 +161,14 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		BB3C40732C524284006AF268 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				BB3C40762C5242C5006AF268 /* APIService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -238,6 +249,7 @@
 				BB3C40672C51F758006AF268 /* CircleButtonAnimationView.swift in Sources */,
 				BB3C406E2C521D8B006AF268 /* PreviewProvider.swift in Sources */,
 				BB3C40702C5224C2006AF268 /* Double.swift in Sources */,
+				BB3C40772C5242C5006AF268 /* APIService.swift in Sources */,
 				BB3C406A2C52013C006AF268 /* CoinModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
