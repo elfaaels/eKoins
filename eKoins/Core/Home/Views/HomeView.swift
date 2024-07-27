@@ -17,10 +17,12 @@ struct HomeView: View {
             // Background Layer
             Color.theme.background
                 .ignoresSafeArea()
-            
             // Content Layer
             VStack {
                 homeHeader
+                HomeStatsView(showPortfolio: $showPortfolio)
+                SearchBarView(searchText: $vm.searchText)
+                    .padding(.all, 10)
                 columnTitles
                 
                 if !showPortfolio {
@@ -35,6 +37,7 @@ struct HomeView: View {
                 Spacer(minLength: 0)
             }
         }
+        .padding()
     }
 }
 
