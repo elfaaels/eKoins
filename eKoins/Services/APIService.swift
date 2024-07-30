@@ -22,7 +22,7 @@ class APIService {
         
     }
     
-    private func getCoins() {
+   func getCoins() {
         guard let url = URL(string: baseURL) else { return }
         
         // Use reusable Networking Layer - NetworkManager()

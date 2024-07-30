@@ -19,7 +19,7 @@ class MarketDataService {
         
     }
     
-    private func getData() {
+    func getData() {
         guard let url = URL(string: baseURL) else { return }
         
         // Use reusable Networking Layer - NetworkManager()

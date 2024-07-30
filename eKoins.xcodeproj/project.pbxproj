@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		BB109F5C2C587E370078B7B0 /* PortfolioDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB109F5B2C587E370078B7B0 /* PortfolioDataService.swift */; };
 		BB109F5F2C588B6C0078B7B0 /* PortfolioContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BB109F5D2C588B6C0078B7B0 /* PortfolioContainer.xcdatamodeld */; };
+		BB109F612C5898A90078B7B0 /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB109F602C5898A90078B7B0 /* HapticManager.swift */; };
+		BB109F632C589FB30078B7B0 /* LoggerUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB109F622C589FB30078B7B0 /* LoggerUtils.swift */; };
 		BB3BC3ED2C54A82E002C3093 /* CoinLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3BC3EC2C54A82E002C3093 /* CoinLogoView.swift */; };
 		BB3BC3EF2C54AB30002C3093 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3BC3EE2C54AB30002C3093 /* SearchBarView.swift */; };
 		BB3BC3F12C54AF81002C3093 /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3BC3F02C54AF81002C3093 /* UIApplication.swift */; };
@@ -44,6 +46,8 @@
 /* Begin PBXFileReference section */
 		BB109F5B2C587E370078B7B0 /* PortfolioDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioDataService.swift; sourceTree = "<group>"; };
 		BB109F5E2C588B6C0078B7B0 /* PortfolioContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PortfolioContainer.xcdatamodel; sourceTree = "<group>"; };
+		BB109F602C5898A90078B7B0 /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
+		BB109F622C589FB30078B7B0 /* LoggerUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggerUtils.swift; sourceTree = "<group>"; };
 		BB3BC3EC2C54A82E002C3093 /* CoinLogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinLogoView.swift; sourceTree = "<group>"; };
 		BB3BC3EE2C54AB30002C3093 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		BB3BC3F02C54AF81002C3093 /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
@@ -226,6 +230,8 @@
 			children = (
 				BB9588062C533B3A00DBB3AF /* NetworkManager.swift */,
 				BB95880F2C534B9900DBB3AF /* LocalFileManager.swift */,
+				BB109F602C5898A90078B7B0 /* HapticManager.swift */,
+				BB109F622C589FB30078B7B0 /* LoggerUtils.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -338,6 +344,8 @@
 				BB3C40702C5224C2006AF268 /* Double.swift in Sources */,
 				BB3C40772C5242C5006AF268 /* APIService.swift in Sources */,
 				BB95880E2C5341C700DBB3AF /* CoinImageService.swift in Sources */,
+				BB109F632C589FB30078B7B0 /* LoggerUtils.swift in Sources */,
+				BB109F612C5898A90078B7B0 /* HapticManager.swift in Sources */,
 				BB3C406A2C52013C006AF268 /* CoinModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
