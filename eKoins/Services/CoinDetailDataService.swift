@@ -23,10 +23,8 @@ class CoinDetailDataService {
     
    func getCoinDetails() {
        
-       let baseURL = "https://api.coingecko.com/api/v3/coins/\(coin.id)?localization=false&tickers=false&market_data=false&community_data=false&developer_data=false&sparkline=false"
-       
-       
-        guard let url = URL(string: baseURL) else { return }
+        guard let url = URL(string:  "https://api.coingecko.com/api/v3/coins/\(coin.id)?localization=false&tickers=false&market_data=false&community_data=false&developer_data=false&sparkline=false") 
+       else { return }
         
         // Use reusable Networking Layer - NetworkManager()
        coinDetailSubscription = NetworkManager.download(url: url)
