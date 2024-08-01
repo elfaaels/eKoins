@@ -23,7 +23,7 @@ extension Date {
         return formatter
     }
     
-    func asShortDateString() -> String {
+    func asShortDateString()  -> String {
         return shortFormatter.string(from: self)
     }
     
