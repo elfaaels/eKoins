@@ -39,6 +39,13 @@ struct DetailView: View {
     var body: some View {
         ScrollView {
             VStack {
+                Spacer()
+                HStack (spacing: 8) {
+                    Text(vm.coin.name)
+                        .font(.customFont(font: .pixelifySans, style: .bold, size: .h1))
+                    CoinImageView(coin: vm.coin)
+                        .frame(width: 25, height: 25)
+                }
                 ChartView(coin: vm.coin)
                     .padding(.vertical)
                 VStack (spacing: 20) {
@@ -55,12 +62,12 @@ struct DetailView: View {
             }
            
         }
-        .navigationTitle(vm.coin.name)
-        .toolbar {
-            ToolbarItem(placement: .navigationBarTrailing, content: {
-              navigationBarTraillingItems
-            })
-        }
+//        .navigationTitle(vm.coin.name)
+//        .toolbar {
+//            ToolbarItem(placement: .navigationBarTrailing, content: {
+//              navigationBarTraillingItems
+//            })
+//       }
     }
 }
 
@@ -74,8 +81,7 @@ extension DetailView {
     private var overviewContent: some View {
         return VStack {
             Text("Overview")
-                .font(.title)
-                .bold()
+                .font(.customFont(font: .pixelifySans, style: .semiBold, size: .h1))
                 .foregroundColor(Color.theme.accent)
                 .frame(maxWidth: .infinity, alignment: .leading)
             Divider()
@@ -90,8 +96,7 @@ extension DetailView {
     private var additionalContent: some View {
         return VStack {
             Text("Additional Details")
-                .font(.title)
-                .bold()
+                .font(.customFont(font: .pixelifySans, style: .semiBold, size: .h1))
                 .foregroundColor(Color.theme.accent)
                 .frame(maxWidth: .infinity, alignment: .leading)
             Divider()
@@ -139,17 +144,22 @@ extension DetailView {
     }
     
     private var linkSection: some View {
-        VStack (alignment: .leading, spacing: 20) {
-            if let websiteStr = vm.websiteURL,
-               let url = URL(string: websiteStr) {
-                Link("Website", destination: url)
+        VStack (alignment: .leading) {
+            Text("References")
+                .font(.customFont(font: .pixelifySans, style: .semiBold, size: .h1))
+                .foregroundColor(Color.theme.accent)
+            HStack (spacing: 20) {
+                if let websiteStr = vm.websiteURL,
+                   let url = URL(string: websiteStr) {
+                    Link("Website".uppercased(), destination: url)
+                }
+                if let redditStr = vm.redditURL,
+                   let url = URL(string: redditStr) {
+                    Link("Reddit".uppercased(), destination: url)
+                }
             }
-            if let redditStr = vm.redditURL,
-               let url = URL(string: redditStr) {
-                Link("Reddit", destination: url)
-            }
-        }
-        .accentColor(.blue)
+            .accentColor(.blue)
         .frame(maxWidth: .infinity, alignment: .leading)
+        }
     }
 }

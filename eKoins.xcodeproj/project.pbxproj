@@ -57,6 +57,7 @@
 		BBCFC7282C5C76CA00539160 /* PixelifySans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BBCFC7242C5C76CA00539160 /* PixelifySans-Medium.ttf */; };
 		BBCFC7292C5C76CA00539160 /* PixelifySans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BBCFC7252C5C76CA00539160 /* PixelifySans-SemiBold.ttf */; };
 		BBCFC72B2C5C77C000539160 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCFC72A2C5C77C000539160 /* Fonts.swift */; };
+		BBCFC72D2C5C943E00539160 /* StatisticOneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCFC72C2C5C943E00539160 /* StatisticOneView.swift */; };
 		BBD4FB4F2C59D7690045FFC6 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD4FB4E2C59D7690045FFC6 /* String.swift */; };
 		BBE4B76E2C572E05000C08C3 /* PortfolioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE4B76D2C572E05000C08C3 /* PortfolioView.swift */; };
 		BBE4B7702C573077000C08C3 /* XmarkButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE4B76F2C573077000C08C3 /* XmarkButton.swift */; };
@@ -115,6 +116,7 @@
 		BBCFC7242C5C76CA00539160 /* PixelifySans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PixelifySans-Medium.ttf"; sourceTree = "<group>"; };
 		BBCFC7252C5C76CA00539160 /* PixelifySans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PixelifySans-SemiBold.ttf"; sourceTree = "<group>"; };
 		BBCFC72A2C5C77C000539160 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		BBCFC72C2C5C943E00539160 /* StatisticOneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticOneView.swift; sourceTree = "<group>"; };
 		BBD4FB4E2C59D7690045FFC6 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		BBE4B76D2C572E05000C08C3 /* PortfolioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioView.swift; sourceTree = "<group>"; };
 		BBE4B76F2C573077000C08C3 /* XmarkButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XmarkButton.swift; sourceTree = "<group>"; };
@@ -237,6 +239,7 @@
 				BBE4B76F2C573077000C08C3 /* XmarkButton.swift */,
 				BBB5FB9C2C5B59BE00DA25A8 /* CustomListRowView.swift */,
 				BBB5FB9E2C5B639500DA25A8 /* StatisticHomeView.swift */,
+				BBCFC72C2C5C943E00539160 /* StatisticOneView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -468,6 +471,7 @@
 				BBBAFC9B2C58CE0E00C1A839 /* DetailViewModel.swift in Sources */,
 				BB3C40562C51EBB1006AF268 /* Color.swift in Sources */,
 				BBCFC72B2C5C77C000539160 /* Fonts.swift in Sources */,
+				BBCFC72D2C5C943E00539160 /* StatisticOneView.swift in Sources */,
 				BB3BC3EF2C54AB30002C3093 /* SearchBarView.swift in Sources */,
 				BB3C40672C51F758006AF268 /* CircleButtonAnimationView.swift in Sources */,
 				BBD4FB4F2C59D7690045FFC6 /* String.swift in Sources */,

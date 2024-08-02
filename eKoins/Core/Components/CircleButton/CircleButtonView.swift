@@ -21,7 +21,7 @@ struct CircleButtonView: View {
                     .foregroundColor(Color.theme.background)
             )
             .shadow(
-                color: Color.theme.accent.opacity(0.25),
+                color: Color.theme.accent.opacity(0.10),
                 radius: 10, x: 0, y: 0
             )
             .padding()

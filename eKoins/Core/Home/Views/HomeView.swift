@@ -27,9 +27,9 @@ struct HomeView: View {
                         .environmentObject(vm)
                 })
             // Content Layer
-            VStack {
+            VStack (spacing: 0) {
                 homeHeader
-                HomeStatsView(showPortfolio: $showPortfolio)
+                     HomeStatsView(showPortfolio: $showPortfolio)
                 SearchBarView(searchText: $vm.searchText)
                     .padding(.all, 10)
                 columnTitles
@@ -58,7 +58,7 @@ struct HomeView: View {
                    EmptyView()
                 })
         )
-        .padding()
+//        .padding()
     }
 }
 
@@ -101,6 +101,7 @@ extension HomeView {
                     }
                 }
         }
+        .frame(height: 100)
         .padding(.horizontal)
     }
     
@@ -194,5 +195,6 @@ extension HomeView {
         .foregroundColor(Color.theme.secondaryText)
         .padding(.horizontal)
     }
+    
 }
 

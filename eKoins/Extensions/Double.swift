@@ -14,8 +14,8 @@ extension Double {
         formatter.usesGroupingSeparator = true
         formatter.numberStyle = .currency
 //        formatter.locale = .current // Default value
-//        formatter.currencyCode = "usd" // Change currency
-//        formatter.currencySymbol = "$"
+        formatter.currencyCode = "usd" // Change currency
+        formatter.currencySymbol = "$"
         formatter.minimumFractionDigits = 2
         formatter.maximumFractionDigits = 2
         return formatter

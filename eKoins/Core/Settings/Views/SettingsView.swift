@@ -34,7 +34,7 @@ struct SettingsView: View {
                 }
                 
             }
-            .navigationTitle("Information")
+            .font(.customFont(font: .firaCode, style: .regular, size: .h3))
             .toolbar {
                 ToolbarItem(placement: .navigationBarLeading) {
                     Button(action: {

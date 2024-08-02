@@ -17,7 +17,7 @@ struct SearchBarView: View {
                 .foregroundColor(
                     searchText.isEmpty ? Color.theme.secondaryText : Color.theme.accent
                 )
-            TextField("Type name or symbol...", text: $searchText)
+            TextField("Search", text: $searchText)
                 .foregroundColor(Color.theme.accent)
                 .disableAutocorrection(true)
                 .overlay(
@@ -36,10 +36,10 @@ struct SearchBarView: View {
         .font(.headline)
         .padding()
         .background(
-            RoundedRectangle(cornerRadius: 18.0)
+            RoundedRectangle(cornerRadius: 16.0)
                 .fill(Color.theme.background)
                 .shadow(
-                    color: Color.theme.accent.opacity(0.15),
+                    color: Color.theme.accent.opacity(0.10),
                     radius: 10, x: 0, y: 0
                 )
         )

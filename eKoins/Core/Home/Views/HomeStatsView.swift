@@ -8,19 +8,47 @@
 import SwiftUI
 
 struct HomeStatsView: View {
- 
+    @State private var currentIndex = 0
+    let timer = Timer.publish(every: 10, on: .main, in: .common).autoconnect()
+    
     @EnvironmentObject private var vm: HomeViewModel
     @Binding var showPortfolio: Bool
     
     var body: some View {
-        HStack (spacing: 5) {
-            ForEach(vm.statistics) { stat in
-                    StatisticView(stat: stat)
-                    .frame(width: UIScreen.main.bounds.width / 3)
+        ZStack {
+            HStack (spacing: 5) {
+                if !showPortfolio {
+                    TabView (selection: $currentIndex) {
+                        if !vm.statistics.isEmpty {
+                            ForEach(0..<vm.statistics.count, id: \.self) { stat in
+                                StatisticHomeView(stat: vm.statistics[stat])
+                            }
+                        } else {
+                            EmptyView()
+                        }
+                    }
+                    .tabViewStyle(PageTabViewStyle(indexDisplayMode: .automatic))
+                    .indexViewStyle(PageIndexViewStyle(backgroundDisplayMode: .always))
+                    .onReceive(timer) { _ in
+    //                           withAnimation {
+    //                               currentIndex = (currentIndex + 1) % vm.statistics.count
+    //                           }
+                           }
+                } else if showPortfolio {
+                    HStack {
+                        ForEach(vm.statistics) { stat in
+                            StatisticOneView(stat: stat)
+                        }
+                        .frame(width: UIScreen.main.bounds.width / 1)
+                    }
+    //                .frame(width: UIScreen.main.bounds.width,
+    //                       alignment: showPortfolio ? .trailing : .leading)
+                }
             }
-        }
-        .frame(width: UIScreen.main.bounds.width,
+            .frame(width: UIScreen.main.bounds.width,
                alignment: showPortfolio ? .trailing : .leading)
+        }
+        .frame(height: 250)
     }
 }
 

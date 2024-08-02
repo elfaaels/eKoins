@@ -14,14 +14,14 @@ struct StatisticView: View {
     var body: some View {
         VStack (alignment: .leading, spacing: 4)  {
             Text(stat.title)
-                .font(.caption)
+                .font(.customFont(font: .firaCode, style: .semiBold, size: .h3))
                 .foregroundStyle(Color.theme.secondaryText)
             Text(stat.value)
-                .font(.headline)
+                .font(.customFont(font: .firaCode, style: .regular, size: .h3))
                 .foregroundColor(Color.theme.accent)
             HStack (spacing: 4) {
                 Image(systemName: "triangle.fill")
-                    .font(.caption2)
+                    .font(.customFont(font: .firaCode, style: .light, size: .h3))
                     .rotationEffect(
                         Angle(degrees: (stat.percentageChange ?? 0) >= 0 ? 0 : 180 ))
                 Text(stat.percentageChange?.asPercentString() ?? "")

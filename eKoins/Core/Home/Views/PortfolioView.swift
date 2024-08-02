@@ -18,8 +18,18 @@ struct PortfolioView: View {
     var body: some View {
         NavigationView {
             ScrollView {
+                Text("Edit Portfolio")
+                    .font(.customFont(font: .pixelifySans, style: .bold, size: .h1))
                 VStack (alignment: .leading, spacing: 0) {
                     SearchBarView(searchText: $vm.searchText)
+                        .background(
+                        RoundedRectangle(cornerRadius: 16.0)
+                            .fill(Color.theme.background)
+                            .shadow(
+                                color: Color.theme.background.opacity(0.10),
+                                radius: 10, x: 0, y: 0
+                            )
+                    )
                     
                     ScrollView(.horizontal, showsIndicators: true) {
                         LazyHStack(spacing: 10) {
@@ -75,20 +85,18 @@ struct PortfolioView: View {
                 }
             }
             .padding()
-            .navigationTitle("Edit Portfolio")
-            .navigationBarTitleDisplayMode(.automatic)
             .toolbar(content: {
                 ToolbarItem(placement: .navigationBarLeading) {
                     XmarkButton()
                 }
                 ToolbarItem(placement: .navigationBarTrailing) {
                     HStack(spacing: 10) {
-                        Image(systemName: "checkmark")
-                            .opacity(showCheckmark ? 1.0 : 0.0)
+//                        Image(systemName: "checkmark")
+//                            .opacity(showCheckmark ? 1.0 : 0.0)
                         Button(action: {
                             saveButtonPressed()
                         }, label: {
-                            Text("Save".uppercased())
+                            Image(systemName: !showCheckmark ? "checkmark" : "")
                         })
                         .opacity(
                             (selectedCoin != nil  && selectedCoin?.currentHoldings != Double(quantityText)) ? 1.0 : 0.0
