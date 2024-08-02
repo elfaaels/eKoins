@@ -42,10 +42,21 @@
 		BBB5FB962C5B1F1200DA25A8 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB5FB952C5B1F1200DA25A8 /* ChartView.swift */; };
 		BBB5FB9B2C5B586900DA25A8 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB5FB9A2C5B586900DA25A8 /* SettingsView.swift */; };
 		BBB5FB9D2C5B59BE00DA25A8 /* CustomListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB5FB9C2C5B59BE00DA25A8 /* CustomListRowView.swift */; };
+		BBB5FB9F2C5B639500DA25A8 /* StatisticHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB5FB9E2C5B639500DA25A8 /* StatisticHomeView.swift */; };
 		BBBAFC972C58C38400C1A839 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBAFC962C58C38400C1A839 /* DetailView.swift */; };
 		BBBAFC992C58CC3800C1A839 /* CoinDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBAFC982C58CC3800C1A839 /* CoinDetailModel.swift */; };
 		BBBAFC9B2C58CE0E00C1A839 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBAFC9A2C58CE0E00C1A839 /* DetailViewModel.swift */; };
 		BBBAFC9D2C58CE4700C1A839 /* CoinDetailDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBAFC9C2C58CE4700C1A839 /* CoinDetailDataService.swift */; };
+		BBCFC71D2C5C76B900539160 /* FiraCode-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BBCFC7182C5C76B900539160 /* FiraCode-Bold.ttf */; };
+		BBCFC71E2C5C76B900539160 /* FiraCode-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BBCFC7192C5C76B900539160 /* FiraCode-Medium.ttf */; };
+		BBCFC71F2C5C76B900539160 /* FiraCode-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BBCFC71A2C5C76B900539160 /* FiraCode-Light.ttf */; };
+		BBCFC7202C5C76B900539160 /* FiraCode-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BBCFC71B2C5C76B900539160 /* FiraCode-Regular.ttf */; };
+		BBCFC7212C5C76B900539160 /* FiraCode-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BBCFC71C2C5C76B900539160 /* FiraCode-SemiBold.ttf */; };
+		BBCFC7262C5C76CA00539160 /* PixelifySans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BBCFC7222C5C76CA00539160 /* PixelifySans-Bold.ttf */; };
+		BBCFC7272C5C76CA00539160 /* PixelifySans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BBCFC7232C5C76CA00539160 /* PixelifySans-Regular.ttf */; };
+		BBCFC7282C5C76CA00539160 /* PixelifySans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BBCFC7242C5C76CA00539160 /* PixelifySans-Medium.ttf */; };
+		BBCFC7292C5C76CA00539160 /* PixelifySans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BBCFC7252C5C76CA00539160 /* PixelifySans-SemiBold.ttf */; };
+		BBCFC72B2C5C77C000539160 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCFC72A2C5C77C000539160 /* Fonts.swift */; };
 		BBD4FB4F2C59D7690045FFC6 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD4FB4E2C59D7690045FFC6 /* String.swift */; };
 		BBE4B76E2C572E05000C08C3 /* PortfolioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE4B76D2C572E05000C08C3 /* PortfolioView.swift */; };
 		BBE4B7702C573077000C08C3 /* XmarkButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE4B76F2C573077000C08C3 /* XmarkButton.swift */; };
@@ -88,10 +99,22 @@
 		BBB5FB952C5B1F1200DA25A8 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
 		BBB5FB9A2C5B586900DA25A8 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		BBB5FB9C2C5B59BE00DA25A8 /* CustomListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomListRowView.swift; sourceTree = "<group>"; };
+		BBB5FB9E2C5B639500DA25A8 /* StatisticHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticHomeView.swift; sourceTree = "<group>"; };
 		BBBAFC962C58C38400C1A839 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		BBBAFC982C58CC3800C1A839 /* CoinDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDetailModel.swift; sourceTree = "<group>"; };
 		BBBAFC9A2C58CE0E00C1A839 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
 		BBBAFC9C2C58CE4700C1A839 /* CoinDetailDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDetailDataService.swift; sourceTree = "<group>"; };
+		BBCFC7172C5C750100539160 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		BBCFC7182C5C76B900539160 /* FiraCode-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraCode-Bold.ttf"; sourceTree = "<group>"; };
+		BBCFC7192C5C76B900539160 /* FiraCode-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraCode-Medium.ttf"; sourceTree = "<group>"; };
+		BBCFC71A2C5C76B900539160 /* FiraCode-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraCode-Light.ttf"; sourceTree = "<group>"; };
+		BBCFC71B2C5C76B900539160 /* FiraCode-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraCode-Regular.ttf"; sourceTree = "<group>"; };
+		BBCFC71C2C5C76B900539160 /* FiraCode-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraCode-SemiBold.ttf"; sourceTree = "<group>"; };
+		BBCFC7222C5C76CA00539160 /* PixelifySans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PixelifySans-Bold.ttf"; sourceTree = "<group>"; };
+		BBCFC7232C5C76CA00539160 /* PixelifySans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PixelifySans-Regular.ttf"; sourceTree = "<group>"; };
+		BBCFC7242C5C76CA00539160 /* PixelifySans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PixelifySans-Medium.ttf"; sourceTree = "<group>"; };
+		BBCFC7252C5C76CA00539160 /* PixelifySans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PixelifySans-SemiBold.ttf"; sourceTree = "<group>"; };
+		BBCFC72A2C5C77C000539160 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 		BBD4FB4E2C59D7690045FFC6 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		BBE4B76D2C572E05000C08C3 /* PortfolioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioView.swift; sourceTree = "<group>"; };
 		BBE4B76F2C573077000C08C3 /* XmarkButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XmarkButton.swift; sourceTree = "<group>"; };
@@ -127,6 +150,8 @@
 		BB3C40432C51E721006AF268 /* eKoins */ = {
 			isa = PBXGroup;
 			children = (
+				BBCFC7172C5C750100539160 /* Info.plist */,
+				BBCFC7132C5C744600539160 /* Shared */,
 				BB3C40732C524284006AF268 /* Services */,
 				BB9588052C533B0000DBB3AF /* Utils */,
 				BB3C40682C52010E006AF268 /* Models */,
@@ -157,6 +182,7 @@
 				BB3BC3F02C54AF81002C3093 /* UIApplication.swift */,
 				BB3BC3FA2C54D90F002C3093 /* Date.swift */,
 				BBD4FB4E2C59D7690045FFC6 /* String.swift */,
+				BBCFC72A2C5C77C000539160 /* Fonts.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -210,6 +236,7 @@
 				BB3BC3F42C54D181002C3093 /* StatisticView.swift */,
 				BBE4B76F2C573077000C08C3 /* XmarkButton.swift */,
 				BBB5FB9C2C5B59BE00DA25A8 /* CustomListRowView.swift */,
+				BBB5FB9E2C5B639500DA25A8 /* StatisticHomeView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -317,6 +344,22 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		BBCFC7132C5C744600539160 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				BBCFC7182C5C76B900539160 /* FiraCode-Bold.ttf */,
+				BBCFC71A2C5C76B900539160 /* FiraCode-Light.ttf */,
+				BBCFC71B2C5C76B900539160 /* FiraCode-Regular.ttf */,
+				BBCFC7192C5C76B900539160 /* FiraCode-Medium.ttf */,
+				BBCFC71C2C5C76B900539160 /* FiraCode-SemiBold.ttf */,
+				BBCFC7222C5C76CA00539160 /* PixelifySans-Bold.ttf */,
+				BBCFC7242C5C76CA00539160 /* PixelifySans-Medium.ttf */,
+				BBCFC7232C5C76CA00539160 /* PixelifySans-Regular.ttf */,
+				BBCFC7252C5C76CA00539160 /* PixelifySans-SemiBold.ttf */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -375,8 +418,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBCFC7282C5C76CA00539160 /* PixelifySans-Medium.ttf in Resources */,
 				BB3C404C2C51E722006AF268 /* Preview Assets.xcassets in Resources */,
+				BBCFC7212C5C76B900539160 /* FiraCode-SemiBold.ttf in Resources */,
+				BBCFC7292C5C76CA00539160 /* PixelifySans-SemiBold.ttf in Resources */,
 				BB3C40532C51E9A0006AF268 /* Assets.xcassets in Resources */,
+				BBCFC71E2C5C76B900539160 /* FiraCode-Medium.ttf in Resources */,
+				BBCFC7272C5C76CA00539160 /* PixelifySans-Regular.ttf in Resources */,
+				BBCFC71F2C5C76B900539160 /* FiraCode-Light.ttf in Resources */,
+				BBCFC7202C5C76B900539160 /* FiraCode-Regular.ttf in Resources */,
+				BBCFC7262C5C76CA00539160 /* PixelifySans-Bold.ttf in Resources */,
+				BBCFC71D2C5C76B900539160 /* FiraCode-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,6 +442,7 @@
 				BB95880C2C53415600DBB3AF /* CoinImageViewModel.swift in Sources */,
 				BB3BC3F32C54D02B002C3093 /* StatisticModel.swift in Sources */,
 				BB3C406C2C521D1B006AF268 /* CoinRowView.swift in Sources */,
+				BBB5FB9F2C5B639500DA25A8 /* StatisticHomeView.swift in Sources */,
 				BB3C40722C52305B006AF268 /* HomeViewModel.swift in Sources */,
 				BB3C40472C51E721006AF268 /* ContentView.swift in Sources */,
 				BB9588102C534B9900DBB3AF /* LocalFileManager.swift in Sources */,
@@ -414,6 +467,7 @@
 				BB3C40652C51F25E006AF268 /* CircleButtonView.swift in Sources */,
 				BBBAFC9B2C58CE0E00C1A839 /* DetailViewModel.swift in Sources */,
 				BB3C40562C51EBB1006AF268 /* Color.swift in Sources */,
+				BBCFC72B2C5C77C000539160 /* Fonts.swift in Sources */,
 				BB3BC3EF2C54AB30002C3093 /* SearchBarView.swift in Sources */,
 				BB3C40672C51F758006AF268 /* CircleButtonAnimationView.swift in Sources */,
 				BBD4FB4F2C59D7690045FFC6 /* String.swift in Sources */,
@@ -563,10 +617,12 @@
 				DEVELOPMENT_TEAM = PFSN649J32;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = eKoins/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = eKoins;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -593,10 +649,12 @@
 				DEVELOPMENT_TEAM = PFSN649J32;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = eKoins/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = eKoins;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (

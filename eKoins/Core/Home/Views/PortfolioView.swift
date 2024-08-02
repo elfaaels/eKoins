@@ -65,7 +65,10 @@ struct PortfolioView: View {
                                 Text(getCurrentValue().asCurrencyWith2Decimals())
                             }
                         }
-                        .animation(.none)
+                        .animation(
+                            .default,
+                          value: UUID()
+                        )                      
                         .padding()
                         .font(.headline)
                     }

@@ -72,7 +72,10 @@ extension HomeView {
     private var homeHeader: some View {
         HStack {
             CircleButtonView(iconName: showPortfolio ? "plus" : "info")
-                .animation(.none)
+                .animation(
+                    .default,
+                  value: UUID()
+                )
                 .onTapGesture {
                     if showPortfolio {
                         showPortfolioView.toggle()
@@ -85,9 +88,8 @@ extension HomeView {
                     CircleButtonAnimationView(animate: $showPortfolio)
                 )
             Spacer()
-            Text(showPortfolio ? "Portfolio" : "Live Prices")
-                .font(.headline)
-                .fontWeight(.heavy)
+            Text(showPortfolio ? "Portfolio" : "eKoins")
+                .font(.customFont(font: .pixelifySans, style: .bold, size: .h1))
                 .foregroundColor(Color.theme.accent)
                 .animation(.none)
             Spacer()
