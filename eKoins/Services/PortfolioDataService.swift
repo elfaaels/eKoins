@@ -28,7 +28,7 @@ class PortfolioDataService {
     
     
     func updatePortfolio(coin: CoinModel, amount: Double) {
-        // check if coin is already in portfolio
+        // Check Coins is Exist in Portfolio or not
         if let entity = savedEntities.first(where: { $0.coinID == coin.id }) {
             if amount > 0 {
                 update(entity: entity, amount: amount)
@@ -80,5 +80,4 @@ class PortfolioDataService {
         save()
         getPortfolio()
     }
-    
 }
