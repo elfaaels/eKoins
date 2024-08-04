@@ -158,6 +158,7 @@ extension DetailView {
                     Link("Reddit".uppercased(), destination: url)
                 }
             }
+            .padding(.top, 10)
             .accentColor(.blue)
         .frame(maxWidth: .infinity, alignment: .leading)
         }

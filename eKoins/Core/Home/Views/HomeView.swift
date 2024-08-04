@@ -28,10 +28,11 @@ struct HomeView: View {
                 })
             // Content Layer
             VStack (spacing: 0) {
-                homeHeader
-                     HomeStatsView(showPortfolio: $showPortfolio)
+                homeHeader                
                 SearchBarView(searchText: $vm.searchText)
-                    .padding(.all, 10)
+                    .padding(.leading, 10)                    
+                    .padding(.trailing, 10)
+                HomeStatsView(showPortfolio: $showPortfolio)
                 columnTitles
                 
                 if !showPortfolio {

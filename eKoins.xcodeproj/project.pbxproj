@@ -23,7 +23,6 @@
 		BB3C40452C51E721006AF268 /* eKoinsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3C40442C51E721006AF268 /* eKoinsApp.swift */; };
 		BB3C40472C51E721006AF268 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3C40462C51E721006AF268 /* ContentView.swift */; };
 		BB3C404C2C51E722006AF268 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB3C404B2C51E722006AF268 /* Preview Assets.xcassets */; };
-		BB3C40532C51E9A0006AF268 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB3C40522C51E9A0006AF268 /* Assets.xcassets */; };
 		BB3C40562C51EBB1006AF268 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3C40552C51EBB1006AF268 /* Color.swift */; };
 		BB3C405E2C51EF13006AF268 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3C405D2C51EF13006AF268 /* HomeView.swift */; };
 		BB3C40652C51F25E006AF268 /* CircleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3C40642C51F25E006AF268 /* CircleButtonView.swift */; };
@@ -47,6 +46,9 @@
 		BBBAFC992C58CC3800C1A839 /* CoinDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBAFC982C58CC3800C1A839 /* CoinDetailModel.swift */; };
 		BBBAFC9B2C58CE0E00C1A839 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBAFC9A2C58CE0E00C1A839 /* DetailViewModel.swift */; };
 		BBBAFC9D2C58CE4700C1A839 /* CoinDetailDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBAFC9C2C58CE4700C1A839 /* CoinDetailDataService.swift */; };
+		BBC8BE9C2C5F4F3E00C09C8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBC8BE9B2C5F4F3E00C09C8F /* LaunchScreen.storyboard */; };
+		BBC8BE9F2C5F528E00C09C8F /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC8BE9E2C5F528E00C09C8F /* LaunchView.swift */; };
+		BBC8BEA12C5F548200C09C8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBC8BEA02C5F548200C09C8F /* Assets.xcassets */; };
 		BBCFC71D2C5C76B900539160 /* FiraCode-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BBCFC7182C5C76B900539160 /* FiraCode-Bold.ttf */; };
 		BBCFC71E2C5C76B900539160 /* FiraCode-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BBCFC7192C5C76B900539160 /* FiraCode-Medium.ttf */; };
 		BBCFC71F2C5C76B900539160 /* FiraCode-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BBCFC71A2C5C76B900539160 /* FiraCode-Light.ttf */; };
@@ -81,7 +83,6 @@
 		BB3C40442C51E721006AF268 /* eKoinsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eKoinsApp.swift; sourceTree = "<group>"; };
 		BB3C40462C51E721006AF268 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BB3C404B2C51E722006AF268 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		BB3C40522C51E9A0006AF268 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../../../Downloads/Resources/Assets.xcassets; sourceTree = "<group>"; };
 		BB3C40552C51EBB1006AF268 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		BB3C405D2C51EF13006AF268 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		BB3C40642C51F25E006AF268 /* CircleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonView.swift; sourceTree = "<group>"; };
@@ -105,6 +106,9 @@
 		BBBAFC982C58CC3800C1A839 /* CoinDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDetailModel.swift; sourceTree = "<group>"; };
 		BBBAFC9A2C58CE0E00C1A839 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
 		BBBAFC9C2C58CE4700C1A839 /* CoinDetailDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDetailDataService.swift; sourceTree = "<group>"; };
+		BBC8BE9B2C5F4F3E00C09C8F /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BBC8BE9E2C5F528E00C09C8F /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
+		BBC8BEA02C5F548200C09C8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BBCFC7172C5C750100539160 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		BBCFC7182C5C76B900539160 /* FiraCode-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraCode-Bold.ttf"; sourceTree = "<group>"; };
 		BBCFC7192C5C76B900539160 /* FiraCode-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraCode-Medium.ttf"; sourceTree = "<group>"; };
@@ -161,7 +165,7 @@
 				BB3C40542C51EB9B006AF268 /* Extensions */,
 				BB3C40462C51E721006AF268 /* ContentView.swift */,
 				BB3C40442C51E721006AF268 /* eKoinsApp.swift */,
-				BB3C40522C51E9A0006AF268 /* Assets.xcassets */,
+				BBC8BEA02C5F548200C09C8F /* Assets.xcassets */,
 				BB3C404A2C51E722006AF268 /* Preview Content */,
 			);
 			path = eKoins;
@@ -232,7 +236,7 @@
 		BB3C405F2C51F20B006AF268 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				BB9588082C53405600DBB3AF /* CoinImage */,
+				BBC8BE9A2C5F4F2A00C09C8F /* Launch */,
 				BB3C40602C51F215006AF268 /* CircleButton */,
 				BB3BC3EE2C54AB30002C3093 /* SearchBarView.swift */,
 				BB3BC3F42C54D181002C3093 /* StatisticView.swift */,
@@ -347,6 +351,24 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		BBC8BE9A2C5F4F2A00C09C8F /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				BBC8BE9D2C5F528400C09C8F /* Views */,
+				BBC8BE9B2C5F4F3E00C09C8F /* LaunchScreen.storyboard */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		BBC8BE9D2C5F528400C09C8F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BBC8BE9E2C5F528E00C09C8F /* LaunchView.swift */,
+				BB9588082C53405600DBB3AF /* CoinImage */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		BBCFC7132C5C744600539160 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
@@ -425,11 +447,12 @@
 				BB3C404C2C51E722006AF268 /* Preview Assets.xcassets in Resources */,
 				BBCFC7212C5C76B900539160 /* FiraCode-SemiBold.ttf in Resources */,
 				BBCFC7292C5C76CA00539160 /* PixelifySans-SemiBold.ttf in Resources */,
-				BB3C40532C51E9A0006AF268 /* Assets.xcassets in Resources */,
 				BBCFC71E2C5C76B900539160 /* FiraCode-Medium.ttf in Resources */,
+				BBC8BEA12C5F548200C09C8F /* Assets.xcassets in Resources */,
 				BBCFC7272C5C76CA00539160 /* PixelifySans-Regular.ttf in Resources */,
 				BBCFC71F2C5C76B900539160 /* FiraCode-Light.ttf in Resources */,
 				BBCFC7202C5C76B900539160 /* FiraCode-Regular.ttf in Resources */,
+				BBC8BE9C2C5F4F3E00C09C8F /* LaunchScreen.storyboard in Resources */,
 				BBCFC7262C5C76CA00539160 /* PixelifySans-Bold.ttf in Resources */,
 				BBCFC71D2C5C76B900539160 /* FiraCode-Bold.ttf in Resources */,
 			);
@@ -443,6 +466,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB95880C2C53415600DBB3AF /* CoinImageViewModel.swift in Sources */,
+				BBC8BE9F2C5F528E00C09C8F /* LaunchView.swift in Sources */,
 				BB3BC3F32C54D02B002C3093 /* StatisticModel.swift in Sources */,
 				BB3C406C2C521D1B006AF268 /* CoinRowView.swift in Sources */,
 				BBB5FB9F2C5B639500DA25A8 /* StatisticHomeView.swift in Sources */,
@@ -626,6 +650,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -658,6 +683,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
