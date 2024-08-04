@@ -40,8 +40,18 @@ struct HomeView: View {
                     .transition(.move(edge: .leading))
                 }
                 if showPortfolio {
-                    portfolioCoinsList
+                    ZStack (alignment: .center) {
+                        if vm.portfolioCoins.isEmpty && vm.searchText.isEmpty {
+                            Text("Nothing...")
+                                .font(.customFont(font: .firaCode, style: .semiBold, size: .h2))
+                                .foregroundStyle(Color.theme.secondaryText)
+                                .padding(100)
+                        } else {
+                            portfolioCoinsList
+                        }
+                    }
                     .transition(.move(edge: .leading))
+                   
                 }
              
                 Spacer(minLength: 0)
