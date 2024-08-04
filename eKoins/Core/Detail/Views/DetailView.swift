@@ -124,7 +124,7 @@ extension DetailView {
                 VStack (alignment: .leading) {
                     Text(coinDescription)
                         .lineLimit(showFullDesc ? nil : 3)
-                        .font(.callout)
+                        .font(.customFont(font: .firaCode, style: .regular, size: .h3))
                         .foregroundColor(Color.theme.secondaryText)
                     Button(action: {
                         withAnimation(.smooth) {
@@ -132,7 +132,7 @@ extension DetailView {
                         }
                     }, label: {
                         Text(showFullDesc ? "Less" : "More...")
-                            .font(.caption)
+                            .font(.customFont(font: .firaCode, style: .bold, size: .h3))
                             .fontWeight(.bold)
                             .padding(.vertical, 4)
                     })

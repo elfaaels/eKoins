@@ -18,6 +18,7 @@ struct SearchBarView: View {
                     searchText.isEmpty ? Color.theme.secondaryText : Color.theme.accent
                 )
             TextField("Search", text: $searchText)
+                .font(.customFont(font: .firaCode, style: .semiBold, size: .h3))
                 .foregroundColor(Color.theme.accent)
                 .disableAutocorrection(true)
                 .overlay(

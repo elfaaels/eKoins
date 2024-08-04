@@ -25,7 +25,10 @@ struct eKoinsApp: App {
                     HomeView()
                         .navigationBarHidden(true)
                 }
+                // Force the iPad to have the same styling as the iPhone 
+                .navigationViewStyle(StackNavigationViewStyle())
                 .environmentObject(vm)
+                
                 ZStack {
                     if showLaunchView {
                         LaunchView(showLaunchView: $showLaunchView)

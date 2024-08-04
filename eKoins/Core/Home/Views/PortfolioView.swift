@@ -57,22 +57,28 @@ struct PortfolioView: View {
                     if selectedCoin != nil {
                         VStack(spacing: 40) {
                             HStack {
-                                Text("Current price of \(selectedCoin?.symbol.uppercased() ?? "") : ")
+                                Text("Current price of\(selectedCoin?.symbol.uppercased() ?? ""): ")
+                                    .font(.customFont(font: .firaCode, style: .semiBold, size: .h3))
                                 Spacer()
                                 Text(selectedCoin?.currentPrice.asCurrencyWith2Decimals() ?? "")
+                                    .font(.customFont(font: .firaCode, style: .semiBold, size: .h3))
                             }
                             Divider()
                             HStack {
                                 Text("Amount Holding: ")
+                                    .font(.customFont(font: .firaCode, style: .semiBold, size: .h3))
                                 Spacer()
                                 TextField("Example: 1.4", text: $quantityText)
                                     .multilineTextAlignment(.trailing)
+                                    .font(.customFont(font: .firaCode, style: .semiBold, size: .h3))
                             }
                             Divider()
                             HStack {
                                 Text("Current Value:")
+                                    .font(.customFont(font: .firaCode, style: .semiBold, size: .h3))
                                 Spacer()
                                 Text(getCurrentValue().asCurrencyWith2Decimals())
+                                    .font(.customFont(font: .firaCode, style: .semiBold, size: .h3))
                             }
                         }
                         .animation(

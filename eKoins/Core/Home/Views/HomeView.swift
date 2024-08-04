@@ -16,7 +16,7 @@ struct HomeView: View {
     @State private var showDetailView: Bool = false
     @State private var showSettingsView: Bool = false // New Sheet
 
-    
+                                                                                       
     var body: some View {
         ZStack {
             // Background Layer
